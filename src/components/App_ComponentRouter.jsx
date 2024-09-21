@@ -23,7 +23,7 @@ function App() {
           
           <Route path="/projects" element={<ProjectLayout />}>
             <Route path="/projects/pokemon" element={<PokemonProject />} />
-            <Route path="/pokemon" element={<PokemonProject />} />
+            <Route path="pokemon/:pokemonNumber" element={<PokemonProject />} />
           </Route>
         
         </Routes>
